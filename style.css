@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+:root {
+  --xPos: 0px;
+  --yPos: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, rgb(244, 126, 146), rgb(252, 70, 107));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 30px; */
+}
+
+header {
+  text-align: center;
+  font-size: 3rem;
+  padding: 5px 10px;
+  color: #f4f4f4;
+  margin: 10px 0;
+}
+
+#img {
+  width: 100%;
+  /* padding: 10px 20px; */
+  /* margin: 10px 20px; */
+  /* border-radius: 50% 50% 0 0; */
+}
+
+figure {
+  width: 320px;
+  /* height: 300px; */
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 40px;
+  width: 100px;
+  cursor: pointer;
+  background-color: rgb(244, 126, 146);
+  /* border: 1px solid #000; */
+  color: #f4f4f4;
+  /* outline: none;
+   */
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #f4f4f4;
+  color: rgb(243, 76, 104);
+}
